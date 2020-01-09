@@ -1,0 +1,143 @@
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+
+body{
+	background-color:#0A9979;
+}
+
+.mare
+{
+	font-size:70px;
+	text-align: center;
+}
+
+.img8
+{
+	width:468px;
+	height:300px;
+}
+
+.buton
+{
+	background-color:black;
+	color:white;
+	width:350px;
+	height:100px;
+	font-size:50px;
+	border:none;
+	cursor:pointer;
+	text-align: center;
+}
+
+@keyframes s8 {
+    0% {
+        transform: rotateZ(0deg);
+        }
+    100% {
+        transform: rotateZ(360deg);
+		}
+}
+ 
+img#s88:hover{
+/*position: relative;*/
+animation: s8 2s linear infinite;
+}       
+
+@keyframes s81 {
+    0% {
+        transform: rotateZ(360deg);
+        }
+    100% {
+        transform: rotateZ(0deg);
+		}
+}
+ 
+img#s881:hover{
+/*position: relative;*/
+animation: s81 2s linear infinite;
+} 
+
+
+
+@keyframes around {
+            0%  { left: 0; top: 0;}
+            50% { left: 100%; top: 0;}
+
+            100%{ left: 0; top: 0;}
+        }
+		
+.around
+{
+    position: fixed;
+    width: 100px;
+    background-color: red;
+    color:white;
+    animation: around 7s linear infinite;
+}
+
+#culoare
+{
+	color:black;
+	letter-spacing:30px;
+  text-shadow: 10px -10px #70B2E5;
+}
+
+.med
+{
+	font-size:30px;
+}
+
+.clasaImg8
+{
+	width:550px;
+	height:300px;
+}
+
+
+.medR
+{
+	font-size:30px;
+	float:right;
+}
+
+.clasaImg8R
+{
+	width:550px;
+	height:300px;
+	float: right;
+}
+
+.bg {
+	
+  width:100%;
+}
+
+
+@media screen and (max-width:800px)
+{
+
+	
+	.med
+{
+	font-size:20px;
+}
+
+.buton
+{
+	width:190px;
+	height:100px;
+	font-size:30px;
+}
+
+.img8
+{
+	width:268px;
+	height:100px;
+}
+
+}

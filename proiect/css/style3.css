@@ -1,0 +1,77 @@
+body{animation: change 10s infinite;
+}
+
+@keyframes change{
+	
+	0%{background-color: #1abc9c;}
+	25%{background-color: #2ecc71;}
+	50%{background-color: #3498db;}
+	75%{background-color: #9b59b6;}
+	100%{background-color: #e74c3c;}
+}
+.grid-container {
+  display: inline-grid;
+  grid-gap: 30px;
+  grid-template-rows: auto; 
+  background-color: #14BFA2;
+  padding: 50px;
+}
+
+.grid-item {
+  background-color: rgba(173,255,47, 255);
+  border: 5px solid rgba(20, 0, 0, 0.8);
+  width:500px;
+  height:305px;
+  text-align: center;
+}
+
+.mare
+{
+	font-size:70px;
+	text-align: center;
+}
+
+#culoare
+{
+	color:RED;
+	letter-spacing:30px;
+  text-shadow: 10px -10px white;
+}
+
+.buton
+{
+	background-color:black;
+	color:white;
+	width:350px;
+	height:100px;
+	font-size:50px;
+	border:none;
+	cursor:pointer;
+	text-align:center;
+}
+
+.marime
+{
+	width:470px;
+	height:300px;
+	
+}
+
+
+
+@media screen and (max-width:800px)
+{
+	.grid-item {
+  width:300px;
+  height:100px;
+}
+	
+	.marime
+{
+	width:270px;
+	height:100px;
+	
+}
+
+
+}
